@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO APP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
-    
+    <div>
+        <header>
+            <h1>
+                Task List
+            </h1>
+        </header>
+    </div>
+    <div>
+        <h2>
+            Add New Task
+        </h2>
+    </div>
+    <div>
+        <label for="task-name">Task Name</label>
+        <input type="text" name="task-name">
+    </div>
+    <div>
+        <label id="sec-input"   for="Task-description">Task Description</label>
+        <input type="text" name="Task-description" id="sec-input">
+    </div>
+    <div>
+        <label for="assigned">Assigned To:</label>
+        <input type="text" name="assigned">
+        <label for="due-date">Due Date</label>
+        <input type="week" name="due-date">
+    </div>
+    <div>
+        <button>ADD TASK</button>
+    </div>
 </body>
 </html>
