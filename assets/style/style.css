@@ -1,0 +1,26 @@
+
+body{
+    font-family: 'Mohave', sans-serif;
+}
+
+header{
+    background-color:gray ;
+    text-align: center;
+}
+
+.container{
+    /* first container with red border to visualize */
+    border: 1px solid rgb(169, 4, 4);
+    min-height: 80vh;
+
+}
+.second-container{
+    /* second container with blue border to visualize */
+    border: 1px solid rgb(36, 5, 236);
+}
+
+
+.btn{
+    margin-top: 20px;
+    width: 100%;
+}

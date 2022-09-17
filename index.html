@@ -7,36 +7,49 @@
     <title>TODO APP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Mohave:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <header>
-            <h1>
-                Task List
-            </h1>
-        </header>
-    </div>
-    <div>
-        <h2>
-            Add New Task
-        </h2>
-    </div>
-    <div>
-        <label for="task-name">Task Name</label>
-        <input type="text" name="task-name">
-    </div>
-    <div>
-        <label id="sec-input"   for="Task-description">Task Description</label>
-        <input type="text" name="Task-description" id="sec-input">
-    </div>
-    <div>
-        <label for="assigned">Assigned To:</label>
-        <input type="text" name="assigned">
-        <label for="due-date">Due Date</label>
-        <input type="week" name="due-date">
-    </div>
-    <div>
-        <button>ADD TASK</button>
-    </div>
+    <div class="container">
+        <div class="second-container">
+            <div>
+                <header>
+                    <h1>
+                        Task List
+                    </h1>
+                </header>
+            </div>
+            <div>
+                <h2>
+                    Add New Task
+                </h2>
+            </div>
+            <div class="form">
+                <label  for="task-name"><span>Task Name</span></label>
+                <input class="form-control" type="text" name="task-name">
+            </div>
+            <div class="form">
+                <label for="Task-description"><span>Task Description</span></label>
+                <textarea class="form-control"  id="floatingTextarea"></textarea>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form">
+                            <label for="assigned"><span>Assigned To:</span></label>
+                            <input class="form-control" type="text" name="assigned">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <label for="due-date"><span>Due Date</span></label>
+                        <input class="form-control" type="week" name="due-date">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-primary btn-lg">ADD TASK</button>
+            </div>
+                </div>
+        </div>
 </body>
 </html>
