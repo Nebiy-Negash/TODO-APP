@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO APP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Mohave:wght@300;600&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
@@ -25,21 +28,67 @@
           </div>
         <div>
           <div class="row g-3">
-          <div class="col-md-6">
-            <label for="assigned" class="form-label">Assigned To</label>
-            <input type="text" class="form-control" id="assigned">
-        </div>
-        <div class="col-md-6">
-            <label for="date_asign" class="form-label">Due Date</label>
-            <input type="date" class="form-control" id="date_asign">
-        </div>
-        
-        <div class="d-grid">
-            <button class="btn btn-primary" type="button">Add Task</button>
+              <div class="col-md-6">
+                <label for="assigned" class="form-label">Assigned To</label>
+                <input type="text" class="form-control" id="assigned">
+            </div>
+            <div class="col-md-6">
+                <label for="date_asign" class="form-label">Due Date</label>
+                <input type="date" class="form-control" id="date_asign">
+            </div>
             
-          </div>
+            <div class="d-grid">
+                <button class="btn btn-primary add-task" type="button">Add Task</button>
+              </div>
         
       </div>
+        <div class="second-contianer">
+          <div class="current-tasks">
+            <span class="tasks-head">
+              Tasks
+            </span>
+            <div class="card" style="width: 20rem;">
+              <button type="button" class="btn btn-success status">Status</button>
+              <div class="card-body">
+                <ul class="list-group-flush">
+                  <li class="list-group-item">Task Name</li>
+                  <li class="list-group-item">Task Description</li>
+                  <li class="list-group-item">Assigned To</li>
+                  <li class="list-group-item">Due Date</li>
+                  <li class="list-group-item">Status</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="current-tasks">
+            <div class="card" style="width: 20rem;">
+              <button type="button" class="btn btn-success status">Status</button>
+              <div class="card-body">
+                <ul class="list-group-flush">
+                  <li class="list-group-item">Task Name</li>
+                  <li class="list-group-item">Task Description</li>
+                  <li class="list-group-item">Assigned To</li>
+                  <li class="list-group-item">Due Date</li>
+                  <li class="list-group-item">Status</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="current-tasks">
+            <div class="card" style="width: 20rem;">
+              <button type="button" class="btn btn-success status">Status</button>
+              <div class="card-body">
+                <ul class="list-group-flush">
+                  <li class="list-group-item">Task Name</li>
+                  <li class="list-group-item">Task Description</li>
+                  <li class="list-group-item">Assigned To</li>
+                  <li class="list-group-item">Due Date</li>
+                  <li class="list-group-item">Status</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
     </body>
     
 </body>
