@@ -41,3 +41,4 @@ _A collaborative project designed to be a task planner. The site has input label
 
 ![Screeenshot](images/Untitled.png)
 ---
+![Screenshot](images/Screen%20Shot%20.png)

@@ -2,8 +2,69 @@
 body {
     background-color: hsl(0, 0%, 97%);
     font-family: 'Mohave';
+    height: 200vh;
 }
-body .container{
+
+body, .container{
     margin: auto;
-    margin-top: 30px
+    margin-top: 2rem;
+}
+
+.container{
+    width: 50%;
+    align-items: center;
+}
+.add-task{
+    width: 40%;
+    margin-left: 15em;
+    margin-bottom: 2em;
+
+}
+.add-task:hover{
+    cursor: pointer;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow:10px 10px 20px ;
+}
+
+.card{
+    margin-bottom: 2em;
+}
+
+.card-body{
+    position: relative;
+}
+
+.todo{
+    position: absolute;
+    right: 1em;
+    top:0%;
+}
+
+.due{
+    position: absolute;
+    right: 1em;
+    top: 5em;
+    opacity: 0.5;
+}
+
+.card-footer{
+    position: relative;
+    height: 4em;
+}
+
+
+.delete{
+    position: absolute;
+    right: 1em;
+    top: 0.6em;
+
+}
+
+.done{
+    position: absolute;
+    right: 6em;
+    top: 0.6em;
 }
