@@ -5,6 +5,7 @@ body {
     height: 200vh;
 }
 
+
 body, .container{
     margin: auto;
     margin-top: 2rem;
@@ -40,7 +41,7 @@ body, .container{
 .todo{
     position: absolute;
     right: 1em;
-    top:0%;
+    top:2em ;
 }
 
 .due{
