@@ -1,9 +1,33 @@
+
 body {
     background-color: hsl(0, 0%, 97%);
-    
+    font-family: 'Mohave';
 }
 body .container{
     margin: auto;
     margin-top: 30px
 }
 
+.current-tasks, .btn{
+    margin-top: 2rem;
+    display: grid;
+
+    
+}
+.container{
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.add-task{
+    width: 50%;
+}
+
+.status{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+li{
+    line-height: 2em;
+}
+    
