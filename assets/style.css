@@ -2,32 +2,73 @@
 body {
     background-color: hsl(0, 0%, 97%);
     font-family: 'Mohave';
+    height: 200vh;
 }
-body .container{
+
+h2{
+    font-style: bold;
+}
+
+body, .container{
     margin: auto;
-    margin-top: 30px
-}
-
-.current-tasks, .btn{
     margin-top: 2rem;
-    display: grid;
-
-    
 }
+
 .container{
     width: 50%;
-    /* border: 1px solid red; */
+    align-items: center;
 }
 .add-task{
-    width: 50%;
+    width: 40%;
+    margin-left: 15em;
+    margin-bottom: 2em;
+
+}
+.add-task:hover{
+    cursor: pointer;
 }
 
-.status{
+.card:hover{
+    cursor: pointer;
+    box-shadow:10px 10px 20px ;
+}
+
+.card{
+    margin-bottom: 2em;
+}
+
+.card-body{
+    position: relative;
+}
+
+.todo{
     position: absolute;
-    right: 0%;
-    top: 0%;
+    right: 1em;
+    top:0%;
 }
-li{
-    line-height: 2em;
+
+.due{
+    position: absolute;
+    right: 1em;
+    top: 5em;
+    opacity: 0.5;
 }
-    
+
+.card-footer{
+    position: relative;
+    height: 4em;
+}
+
+
+.delete{
+    position: absolute;
+    right: 1em;
+    top: 0.6em;
+
+}
+
+.done{
+    position: absolute;
+    right: 6em;
+    top: 0.6em;
+}
