@@ -69,3 +69,8 @@ body, .container{
     right: 6em;
     top: 0.6em;
 }
+
+.error-message{
+    font-size: 1em;
+    color: red;
+}
