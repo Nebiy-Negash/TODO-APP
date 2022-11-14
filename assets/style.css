@@ -1,14 +1,21 @@
 
 body {
-    background-color: hsl(0, 0%, 97%);
-    font-family: 'Mohave';
-    height: 200vh;
+    background-color: hsl(0, 0%, 0%);
+   min-height: 100vh;
+    font-family: 'Roboto';
+    color: aliceblue;
 }
 
 
-body, .container{
+.container{
+    background-color: hsl(223, 24%, 32%);
+    box-shadow: 2px 2px 9px 5px grey;
+    border-radius: 10px;
+    padding: 2em;
+    border: 1px solid black;
     margin: auto;
     margin-top: 2rem;
+    max-width: 50%;
 }
 
 .container{
@@ -16,8 +23,9 @@ body, .container{
     align-items: center;
 }
 .add-task{
-    width: 40%;
-    margin-left: 15em;
+    position: relative;
+    width: 50%;
+    margin-left: 10em;
     margin-bottom: 2em;
 
 }
@@ -31,6 +39,7 @@ body, .container{
 }
 
 .card{
+    color: black;
     margin-bottom: 2em;
 }
 
@@ -71,6 +80,7 @@ body, .container{
 }
 
 .error-message{
+    font-family: 'Mohave';
     font-size: 1em;
     color: red;
 }
