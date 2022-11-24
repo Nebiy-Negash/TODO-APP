@@ -5,11 +5,13 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>TODO APP</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="assets/style.css">
       <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Mohave:wght@300;600&display=swap" rel="stylesheet">
-      <script src="./assets/scripts/index.js" defer></script>
+      
+      <script  src="./assets/scripts/JS/index.js" defer></script>
+      <script src="./assets/scripts/JS/taskmanager.js" defer ></script>
 
 
   </head>
@@ -46,7 +48,6 @@
                   <option value="" selected=""selected></option>
                   <option value="to-do">to-do</option>
                   <option value="In-Progress">In-Progress</option>
-                  <option value="Review">Review</option>
                   <option value="Done">Done</option>
                 </select>
                 <div class="alert-warning col-6 invisible" role="alert">
@@ -61,12 +62,12 @@
               <div class="error-message" id="date-error"></div>
           
               <div class="">
-                  <button class="btn btn-primary btn-lg add-task" type="submit" id="btn">Add Task</button>
+                  <button class="btn btn-primary btn-lg submit-task" type="submit" id="btn">Add Task</button>
                 </div>
         </form>
     </div>             
       <div class="task-cards">
-                <div class="card card-1 w-75">
+                <!-- <div class="card card-1 w-75">
                     <div class="card-body">
                       <label for="due-date">
                         <button class="btn btn-danger btn-sm todo">Todo</button>
@@ -87,8 +88,26 @@
                           <button class="btn btn-outline-success done ">Mark as Done</button>
                           <button class="btn btn-outline-danger delete">Delete</button>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
-                
+                  <!-- card to be rendered -->
+                  <!-- <div class="task-cards">
+                    <li class = "parentTask" id = "${currentId}">  
+                      <div class="card" style="width: 30rem;">
+                        <div class="card-body">
+                          <h3 class="card-title">Task Name: ${name}</h3>
+                          <p class="assignment">Assigned to: ${assignedTo}</p>
+                          <p class="due">Due: ${dueDate}</p>
+                          <p class="card-text">Task Description: ${description}</p>
+                          <span class="status"> ${status}</span>
+                          <div class="card-footer">
+                          <a href="#" class="btn btn-outline-success">Done</a>
+                          <a href="#" class="btn btn-outline-danger">Delete</a> 
+                          <button type="button" class="btn btn-outline-success done-button" >Mark as Done</button>
+                        </div>
+                        </div>
+                      </div>
+                  </li>
+                  </div> -->
   </body>
 </html>

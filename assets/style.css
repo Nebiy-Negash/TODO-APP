@@ -22,7 +22,7 @@ body {
     width: 50%;
     align-items: center;
 }
-.add-task{
+.submit-task{
     position: relative;
     width: 50%;
     margin-left: 10em;
