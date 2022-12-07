@@ -45,3 +45,9 @@ _A collaborative project designed to be a task planner. The site has input label
 ![Screeenshot](/assets/images/Untitled.png)
 ---
 ![Screenshot](/assets/images/Screen%20Shot%20.png)
+
+![Screenshot](/assets/images/mainpaige.png)
+
+![Screenshot](/assets/images/error_showing.png)
+
+![Screenshot](/assets/images/task_card.png)
